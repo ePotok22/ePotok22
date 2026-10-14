@@ -12,12 +12,16 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ffd43b&color_dots=#241a3b,#4a2f6b,#7a3f8f,#b06cff,#ff8fab
+            dist/snake-raw.svg?color_snake=#ffd43b&color_dots=#2f2450,#4a2f6b,#7a3f8f,#b06cff,#ff8fab
+
+      - name: Frame snake in 404.0 FM card
+        run: python3 scripts/frame_snake.py dist/snake-raw.svg dist/snake.svg && rm dist/snake-raw.svg
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
