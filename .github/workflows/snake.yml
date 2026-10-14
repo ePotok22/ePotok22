@@ -21,11 +21,11 @@ jobs:
             dist/snake-raw.svg?color_snake=#ffd43b&color_dots=#2f2450,#4a2f6b,#7a3f8f,#b06cff,#ff8fab
 
       - name: Frame snake in 404.0 FM card
-        run: python3 scripts/frame_snake.py dist/snake-raw.svg dist/snake.svg && rm dist/snake-raw.svg
+        run: mkdir -p site && python3 scripts/frame_snake.py dist/snake-raw.svg site/snake.svg
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
