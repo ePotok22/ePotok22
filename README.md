@@ -8,5 +8,6 @@
 
 <a href="mailto:kf.potok@gmail.com"><img src="https://img.shields.io/badge/kf.potok@gmail.com-1c1430?style=for-the-badge&logo=gmail&logoColor=ffd43b" alt="Email"></a>
 <a href="https://github.com/ePotok22"><img src="https://img.shields.io/badge/ePotok22-1c1430?style=for-the-badge&logo=github&logoColor=ff8fab" alt="GitHub"></a>
+<img src="https://hits.sh/github.com/ePotok22.svg?style=for-the-badge&label=listeners&color=ff8fab&labelColor=1c1430" alt="Profile views">
 
 </div>
