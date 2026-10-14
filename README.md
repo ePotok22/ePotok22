@@ -7,6 +7,7 @@
 <img src="https://raw.githubusercontent.com/fff-fm-404/fff-fm-404/output/snake.svg" width="100%" alt="Signal history: a yellow snake eats my contribution graph">
 
 <a href="mailto:kf.potok@gmail.com"><img src="https://img.shields.io/badge/kf.potok@gmail.com-1c1430?style=for-the-badge&logo=gmail&logoColor=ffd43b" alt="Email"></a>
+<a href="https://fff-fm-404.github.io/"><img src="https://img.shields.io/badge/site-fff--fm--404.github.io-1c1430?style=for-the-badge&logo=githubpages&logoColor=ffd43b" alt="Website"></a>
 <a href="https://github.com/fff-fm-404"><img src="https://img.shields.io/badge/fff--fm--404-1c1430?style=for-the-badge&logo=github&logoColor=ff8fab" alt="GitHub"></a>
 <img src="https://hits.sh/github.com/fff-fm-404.svg?style=for-the-badge&label=listeners&color=ff8fab&labelColor=1c1430" alt="Profile views">
 
